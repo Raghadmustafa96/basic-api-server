@@ -4,7 +4,6 @@ class Food {
 
   constructor() {
     this.db = [];
-    // [{id,data:{name,role}},....]
   }
 
   create(obj) {

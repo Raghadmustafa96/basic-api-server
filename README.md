@@ -2,7 +2,7 @@
 
 ## links:
 
-[heroku link]()
+[heroku link](https://basic-api-server-raghad.herokuapp.com/)
 
 
 ## setup environment
@@ -31,4 +31,4 @@ create files tree <br>
 
  ## UML Diagram
 
- ![lab3]()
+ ![lab3](./lab3.PNG)

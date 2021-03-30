@@ -16,9 +16,13 @@ app.use(express.json());
 app.use(morgan('dev'));
 app.use(cors());
 
-  app.get('/error', (req, res) => {
-    throw new Error('ERROR FROM server side :) ...');
-  });
+app.get('/', (req, res) => {
+res.send('Hello From the Other side');
+});
+
+app.get('/error', (req, res) => {
+throw new Error('ERROR FROM server side :) ...');
+});
 
 app.use('/clothes/', clothesRouter);
 app.use('/food/', foodRouter);
